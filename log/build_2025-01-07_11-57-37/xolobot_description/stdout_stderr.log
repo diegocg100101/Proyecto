@@ -1,0 +1,59 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (1.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/diego/ros2_ws/build/xolobot_description
+-- Install configuration: ""
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/rrbot
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/rrbot/model.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive/model.config
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive/model.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/box.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/model_backup.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/minibot.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/minixolo.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/model.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_sensor.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base_altura_ok.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel_mejorado_backup.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base_backup.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel_mejorado.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base.dae
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/model.config
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/xolobot.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/xolobot_description.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/xolobot_description.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/package_run_dependencies/xolobot_description
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/parent_prefix_path/xolobot_description
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/ament_prefix_path.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/ament_prefix_path.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/path.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/path.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.bash
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.zsh
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/package.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/packages/xolobot_description
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/cmake/xolobot_descriptionConfig.cmake
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/cmake/xolobot_descriptionConfig-version.cmake
+-- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/package.xml

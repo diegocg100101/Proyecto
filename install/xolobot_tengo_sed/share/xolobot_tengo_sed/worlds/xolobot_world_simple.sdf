@@ -1,0 +1,104 @@
+<?xml version="1.0" ?>
+<!--
+  Try sending commands:
+    ign topic -t "/model/arlo_xolobot/cmd_vel" -m gz.msgs.Twist -p "linear: {x: 1.0}, angular: {z: -0.1}"
+    ros2 topic pub /model/arlo_xolobot/cmd_vel geometry_msgs/msg/Twist "{linear: {x: 5.0, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: -0.1}}"
+  Listen to odometry:
+    ign topic -e -t /model/arlo_xolobot/odometry
+    ros2 topic echo /model/arlo_xolobot/odometry
+-->
+<sdf version="1.8">
+  <world name="simple">
+
+    <plugin
+      filename="libignition-gazebo-physics-system.so"
+      name="ignition::gazebo::systems::Physics">
+    </plugin>
+    <plugin
+      filename="libignition-gazebo-sensors-system.so"
+      name="ignition::gazebo::systems::Sensors">
+      <render_engine>ogre2</render_engine>
+    </plugin>
+    <plugin
+      filename="libignition-gazebo-scene-broadcaster-system.so"
+      name="ignition::gazebo::systems::SceneBroadcaster">
+    </plugin>
+
+    <!-- <plugin
+      filename="libignition-gazebo-user-commands-system.so"
+      name="ignition::gazebo::systems::UserCommands">
+    </plugin> -->
+
+    <light name="sun" type="directional">
+      <cast_shadows>true</cast_shadows>
+      <pose>0 0 10 0 0 0</pose>
+      <diffuse>0.8 0.8 0.8 1</diffuse>
+      <specular>0.2 0.2 0.2 1</specular>
+      <attenuation>
+        <range>1000</range>
+        <constant>0.9</constant>
+        <linear>0.01</linear>
+        <quadratic>0.001</quadratic>
+      </attenuation>
+      <direction>-0.5 0.1 -0.9</direction>
+    </light>
+
+    <model name="ground_plane">
+      <static>true</static>
+      <link name="link">
+        <collision name="collision">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+        </collision>
+        <visual name="visual">
+          <geometry>
+            <plane>
+              <normal>0 0 1</normal>
+              <size>100 100</size>
+            </plane>
+          </geometry>
+          <material>
+            <ambient>0.8 0.8 0.8 1</ambient>
+            <diffuse>0.8 0.8 0.8 1</diffuse>
+            <specular>0.8 0.8 0.8 1</specular>
+          </material>
+        </visual>
+      </link>
+    </model>
+
+    <model name="arlo_xolobot">
+      <self_collide>false</self_collide>
+      <pose>0 0 0.1 0 0 0</pose>
+      <include merge="true">
+        <uri>package://xolobot_description/models/arlodrive</uri>
+      </include>
+
+      <!-- <plugin
+        filename="libignition-gazebo-joint-state-publisher-system.so"
+        name="ignition::gazebo::systems::JointStatePublisher">
+      </plugin>
+
+      <plugin
+        filename="libignition-gazebo-pose-publisher-system.so"
+        name="ignition::gazebo::systems::PosePublisher">
+        <publish_link_pose>true</publish_link_pose>
+        <use_pose_vector_msg>true</use_pose_vector_msg>
+        <static_publisher>true</static_publisher>
+        <static_update_frequency>1</static_update_frequency>
+      </plugin>
+
+      <plugin
+        filename="libignition-gazebo-odometry-publisher-system.so"
+        name="ignition::gazebo::systems::OdometryPublisher">
+        <odom_frame>arlodrive/odom</odom_frame>
+        <robot_base_frame>arlodrive</robot_base_frame>
+      </plugin> -->
+
+    </model>
+
+  </world>
+</sdf>

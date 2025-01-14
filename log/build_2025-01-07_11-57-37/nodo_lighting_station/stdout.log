@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info
+writing ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/dependency_links.txt
+writing entry points to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/entry_points.txt
+writing requirements to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/requires.txt
+writing top-level names to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/top_level.txt
+writing manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+reading manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/diego/ros2_ws/build/nodo_lighting_station/build
+creating /home/diego/ros2_ws/build/nodo_lighting_station/build/lib
+creating /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+copying nodo_lighting_station/__init__.py -> /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+copying nodo_lighting_station/SunController.py -> /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+running install
+running install_lib
+creating /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+copying /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station/__init__.py -> /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+copying /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station/SunController.py -> /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+byte-compiling /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station/SunController.py to SunController.cpython-312.pyc
+running install_data
+creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index
+creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index
+creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index/packages
+copying resource/nodo_lighting_station -> /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index/packages
+copying package.xml -> /home/diego/ros2_ws/install/nodo_lighting_station/share/nodo_lighting_station
+running install_egg_info
+Copying ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info to /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station-0.0.0-py3.12.egg-info
+running install_scripts
+Installing start_light_station script to /home/diego/ros2_ws/install/nodo_lighting_station/lib/nodo_lighting_station
+writing list of installed files to '/home/diego/ros2_ws/build/nodo_lighting_station/install.log'

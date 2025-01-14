@@ -1,0 +1,235 @@
+[0.000000] (-) TimerEvent: {}
+[0.001302] (kalanchoe_interface) JobQueued: {'identifier': 'kalanchoe_interface', 'dependencies': OrderedDict()}
+[0.001438] (nodo_data_analysis) JobQueued: {'identifier': 'nodo_data_analysis', 'dependencies': OrderedDict()}
+[0.001502] (nodo_kalanchoe) JobQueued: {'identifier': 'nodo_kalanchoe', 'dependencies': OrderedDict()}
+[0.001551] (nodo_watering_station) JobQueued: {'identifier': 'nodo_watering_station', 'dependencies': OrderedDict()}
+[0.001597] (station_interface) JobQueued: {'identifier': 'station_interface', 'dependencies': OrderedDict()}
+[0.001643] (xolobot_blueprint) JobQueued: {'identifier': 'xolobot_blueprint', 'dependencies': OrderedDict()}
+[0.001687] (xolobot_kalanchoe_world) JobQueued: {'identifier': 'xolobot_kalanchoe_world', 'dependencies': OrderedDict()}
+[0.001730] (nodo_data_monitoring) JobQueued: {'identifier': 'nodo_data_monitoring', 'dependencies': OrderedDict({'kalanchoe_interface': '/home/diego/ros2_ws/install/kalanchoe_interface'})}
+[0.001828] (nodo_lighting_station) JobQueued: {'identifier': 'nodo_lighting_station', 'dependencies': OrderedDict({'station_interface': '/home/diego/ros2_ws/install/station_interface'})}
+[0.001886] (nodo_xolobot_driver) JobQueued: {'identifier': 'nodo_xolobot_driver', 'dependencies': OrderedDict({'station_interface': '/home/diego/ros2_ws/install/station_interface'})}
+[0.001939] (xolobot_ascending) JobQueued: {'identifier': 'xolobot_ascending', 'dependencies': OrderedDict({'xolobot_kalanchoe_world': '/home/diego/ros2_ws/install/xolobot_kalanchoe_world'})}
+[0.001992] (station_interface) JobStarted: {'identifier': 'station_interface'}
+[0.015609] (kalanchoe_interface) JobStarted: {'identifier': 'kalanchoe_interface'}
+[0.021533] (xolobot_kalanchoe_world) JobStarted: {'identifier': 'xolobot_kalanchoe_world'}
+[0.027923] (nodo_data_analysis) JobStarted: {'identifier': 'nodo_data_analysis'}
+[0.037375] (nodo_kalanchoe) JobStarted: {'identifier': 'nodo_kalanchoe'}
+[0.050306] (nodo_watering_station) JobStarted: {'identifier': 'nodo_watering_station'}
+[0.060617] (xolobot_blueprint) JobStarted: {'identifier': 'xolobot_blueprint'}
+[0.072949] (station_interface) JobProgress: {'identifier': 'station_interface', 'progress': 'cmake'}
+[0.074135] (station_interface) Command: {'cmd': ['/home/diego/.local/bin/cmake', '/home/diego/ros2_ws/src/tengo_mas_sed/station_interface', '-DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/station_interface'], 'cwd': '/home/diego/ros2_ws/build/station_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/diego/ros2_ws/src/xolobot/xolobot_description/models/arlodrive:/home/diego/.gazebo/models', 'USER': 'diego', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20596', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/diego/.local/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-linux:@/tmp/.ICE-unix/20562,unix/diego-linux:/tmp/.ICE-unix/20562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d33430cc_04c9_46d6_86e2_082b3b399f98', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8SXZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.301', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/station_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.079918] (kalanchoe_interface) JobProgress: {'identifier': 'kalanchoe_interface', 'progress': 'cmake'}
+[0.080694] (kalanchoe_interface) Command: {'cmd': ['/home/diego/.local/bin/cmake', '/home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface', '-DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/kalanchoe_interface'], 'cwd': '/home/diego/ros2_ws/build/kalanchoe_interface', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/diego/ros2_ws/src/xolobot/xolobot_description/models/arlodrive:/home/diego/.gazebo/models', 'USER': 'diego', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20596', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/diego/.local/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-linux:@/tmp/.ICE-unix/20562,unix/diego-linux:/tmp/.ICE-unix/20562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d33430cc_04c9_46d6_86e2_082b3b399f98', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8SXZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.301', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/kalanchoe_interface', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.084144] (xolobot_kalanchoe_world) JobProgress: {'identifier': 'xolobot_kalanchoe_world', 'progress': 'cmake'}
+[0.085532] (xolobot_kalanchoe_world) Command: {'cmd': ['/home/diego/.local/bin/cmake', '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world', '-DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_kalanchoe_world'], 'cwd': '/home/diego/ros2_ws/build/xolobot_kalanchoe_world', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/diego/ros2_ws/src/xolobot/xolobot_description/models/arlodrive:/home/diego/.gazebo/models', 'USER': 'diego', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20596', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/diego/.local/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-linux:@/tmp/.ICE-unix/20562,unix/diego-linux:/tmp/.ICE-unix/20562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d33430cc_04c9_46d6_86e2_082b3b399f98', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8SXZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.301', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/xolobot_kalanchoe_world', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[0.099528] (-) TimerEvent: {}
+[0.199990] (-) TimerEvent: {}
+[0.300473] (-) TimerEvent: {}
+[0.401017] (-) TimerEvent: {}
+[0.501450] (-) TimerEvent: {}
+[0.601850] (-) TimerEvent: {}
+[0.702350] (-) TimerEvent: {}
+[0.802842] (-) TimerEvent: {}
+[0.903227] (-) TimerEvent: {}
+[1.003697] (-) TimerEvent: {}
+[1.104244] (-) TimerEvent: {}
+[1.204711] (-) TimerEvent: {}
+[1.305245] (-) TimerEvent: {}
+[1.405862] (-) TimerEvent: {}
+[1.506332] (-) TimerEvent: {}
+[1.588591] (station_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.590051] (station_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.590246] (station_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.590388] (station_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.590524] (station_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.590658] (station_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.591376] (station_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.591535] (station_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.591680] (station_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.591849] (station_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.592002] (station_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.592143] (station_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.592285] (station_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.592428] (station_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter\n'}
+[1.592571] (station_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.592713] (kalanchoe_interface) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.593062] (kalanchoe_interface) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.593876] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.594147] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.594386] (kalanchoe_interface) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.594520] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.594652] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.594911] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.595103] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.595278] (kalanchoe_interface) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.595413] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.595544] (kalanchoe_interface) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.595675] (kalanchoe_interface) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.595843] (kalanchoe_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter\n'}
+[1.595989] (kalanchoe_interface) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[1.596121] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.596672] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.596841] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.596984] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.597116] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.597246] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.597377] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.597508] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.597641] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.597791] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.597941] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.598073] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.598203] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[1.598335] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter\n'}
+[1.598467] (xolobot_kalanchoe_world) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.598600] (xolobot_kalanchoe_world) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:11 (find_package):\n'}
+[1.598971] (xolobot_kalanchoe_world) StderrLine: {'line': b'  By not providing "Findxolobot_description.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.599116] (xolobot_kalanchoe_world) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.599269] (xolobot_kalanchoe_world) StderrLine: {'line': b'  "xolobot_description", but CMake did not find one.\n'}
+[1.599410] (xolobot_kalanchoe_world) StderrLine: {'line': b'\n'}
+[1.599541] (xolobot_kalanchoe_world) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.599671] (xolobot_kalanchoe_world) StderrLine: {'line': b'  "xolobot_description" with any of the following names:\n'}
+[1.599897] (xolobot_kalanchoe_world) StderrLine: {'line': b'\n'}
+[1.600079] (xolobot_kalanchoe_world) StderrLine: {'line': b'    xolobot_descriptionConfig.cmake\n'}
+[1.600233] (xolobot_kalanchoe_world) StderrLine: {'line': b'    xolobot_description-config.cmake\n'}
+[1.600750] (xolobot_kalanchoe_world) StderrLine: {'line': b'\n'}
+[1.600985] (xolobot_kalanchoe_world) StderrLine: {'line': b'  Add the installation prefix of "xolobot_description" to CMAKE_PREFIX_PATH\n'}
+[1.601142] (xolobot_kalanchoe_world) StderrLine: {'line': b'  or set "xolobot_description_DIR" to a directory containing one of the above\n'}
+[1.601296] (xolobot_kalanchoe_world) StderrLine: {'line': b'  files.  If "xolobot_description" provides a separate development package or\n'}
+[1.601449] (xolobot_kalanchoe_world) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.601600] (xolobot_kalanchoe_world) StderrLine: {'line': b'\n'}
+[1.601751] (xolobot_kalanchoe_world) StderrLine: {'line': b'\x1b[0m\n'}
+[1.602471] (xolobot_kalanchoe_world) CommandEnded: {'returncode': 1}
+[1.606281] (xolobot_blueprint) JobProgress: {'identifier': 'xolobot_blueprint', 'progress': 'cmake'}
+[1.606473] (-) TimerEvent: {}
+[1.608457] (xolobot_blueprint) Command: {'cmd': ['/home/diego/.local/bin/cmake', '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint', '-DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_blueprint'], 'cwd': '/home/diego/ros2_ws/build/xolobot_blueprint', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'GZ_SIM_RESOURCE_PATH': '/home/diego/ros2_ws/src/xolobot/xolobot_description/models/arlodrive:/home/diego/.gazebo/models', 'USER': 'diego', 'GZ_CONFIG_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/share/gz:/opt/ros/jazzy/opt/sdformat_vendor/share/gz:/opt/ros/jazzy/opt/gz_gui_vendor/share/gz:/opt/ros/jazzy/opt/gz_transport_vendor/share/gz:/opt/ros/jazzy/opt/gz_rendering_vendor/share/gz:/opt/ros/jazzy/opt/gz_plugin_vendor/share/gz:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/share/gz:/opt/ros/jazzy/opt/gz_msgs_vendor/share/gz:/opt/ros/jazzy/opt/gz_common_vendor/share/gz', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor/lib:/opt/ros/jazzy/opt/gz_sensors_vendor/lib:/opt/ros/jazzy/opt/gz_physics_vendor/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_gui_vendor/lib:/opt/ros/jazzy/opt/gz_transport_vendor/lib:/opt/ros/jazzy/opt/gz_rendering_vendor/lib:/opt/ros/jazzy/opt/gz_plugin_vendor/lib:/opt/ros/jazzy/opt/gz_fuel_tools_vendor/lib:/opt/ros/jazzy/opt/gz_msgs_vendor/lib:/opt/ros/jazzy/opt/gz_common_vendor/lib:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_ogre_next_vendor/lib:/opt/ros/jazzy/opt/gz_dartsim_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'HOME': '/home/diego', 'OLDPWD': '/home/diego', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '20596', 'IM_CONFIG_CHECK_ENV': '1', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/diego/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'diego', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'diego', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/jazzy/opt/gz_msgs_vendor/bin:/opt/ros/jazzy/opt/gz_tools_vendor/bin:/opt/ros/jazzy/opt/gz_ogre_next_vendor/bin:/opt/ros/jazzy/bin:/home/diego/.local/bin:/home/diego/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/diego-linux:@/tmp/.ICE-unix/20562,unix/diego-linux:/tmp/.ICE-unix/20562', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d33430cc_04c9_46d6_86e2_082b3b399f98', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.G8SXZ2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.301', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/opt/ros/jazzy', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/diego/ros2_ws/build/xolobot_blueprint', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy'}), 'shell': False}
+[1.652258] (xolobot_kalanchoe_world) JobEnded: {'identifier': 'xolobot_kalanchoe_world', 'rc': 1}
+[1.660132] (kalanchoe_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.707010] (-) TimerEvent: {}
+[1.722922] (station_interface) StdoutLine: {'line': b'-- Found geometry_msgs: 5.3.5 (/opt/ros/jazzy/share/geometry_msgs/cmake)\n'}
+[1.768676] (xolobot_blueprint) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[1.807131] (-) TimerEvent: {}
+[1.839255] (kalanchoe_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.862870] (station_interface) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)\n'}
+[1.899112] (kalanchoe_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.907376] (-) TimerEvent: {}
+[1.920974] (station_interface) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.6.5 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)\n'}
+[1.943178] (xolobot_blueprint) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[1.969242] (kalanchoe_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.974743] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.975541] (station_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.007479] (-) TimerEvent: {}
+[2.033668] (station_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.045968] (kalanchoe_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.108004] (-) TimerEvent: {}
+[2.148511] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[2.179781] (station_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.198998] (xolobot_blueprint) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[2.199803] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[2.201069] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[2.208138] (-) TimerEvent: {}
+[2.212904] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[2.226204] (station_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.235484] (kalanchoe_interface) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)\n'}
+[2.297896] (kalanchoe_interface) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.6.5 (/opt/ros/jazzy/share/rosidl_adapter/cmake)\n'}
+[2.308898] (-) TimerEvent: {}
+[2.409391] (-) TimerEvent: {}
+[2.422018] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.476116] (xolobot_blueprint) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.477159] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.478958] (xolobot_blueprint) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.491230] (xolobot_blueprint) StdoutLine: {'line': b'-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)\n'}
+[2.509529] (-) TimerEvent: {}
+[2.610100] (-) TimerEvent: {}
+[2.710609] (-) TimerEvent: {}
+[2.811110] (-) TimerEvent: {}
+[2.912249] (-) TimerEvent: {}
+[2.953738] (xolobot_blueprint) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter\n'}
+[3.014539] (-) TimerEvent: {}
+[3.115117] (-) TimerEvent: {}
+[3.209353] (nodo_data_analysis) JobEnded: {'identifier': 'nodo_data_analysis', 'rc': 'SIGINT'}
+[3.215300] (-) TimerEvent: {}
+[3.279602] (nodo_kalanchoe) JobEnded: {'identifier': 'nodo_kalanchoe', 'rc': 'SIGINT'}
+[3.281181] (nodo_watering_station) JobEnded: {'identifier': 'nodo_watering_station', 'rc': 'SIGINT'}
+[3.311343] (xolobot_blueprint) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)\n'}
+[3.315408] (-) TimerEvent: {}
+[3.415827] (-) TimerEvent: {}
+[3.516308] (-) TimerEvent: {}
+[3.524915] (xolobot_blueprint) StdoutLine: {'line': b'-- Configuring done (1.9s)\n'}
+[3.533000] (xolobot_blueprint) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[3.535267] (xolobot_blueprint) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/ros2_ws/build/xolobot_blueprint\n'}
+[3.547280] (xolobot_blueprint) JobEnded: {'identifier': 'xolobot_blueprint', 'rc': 'SIGINT'}
+[3.616420] (-) TimerEvent: {}
+[3.637101] (kalanchoe_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.716564] (-) TimerEvent: {}
+[3.800196] (station_interface) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)\n'}
+[3.816795] (-) TimerEvent: {}
+[3.917166] (-) TimerEvent: {}
+[4.017531] (-) TimerEvent: {}
+[4.118037] (-) TimerEvent: {}
+[4.219329] (-) TimerEvent: {}
+[4.319964] (-) TimerEvent: {}
+[4.420432] (-) TimerEvent: {}
+[4.520799] (-) TimerEvent: {}
+[4.621275] (-) TimerEvent: {}
+[4.721608] (-) TimerEvent: {}
+[4.821998] (-) TimerEvent: {}
+[4.922456] (-) TimerEvent: {}
+[5.022929] (-) TimerEvent: {}
+[5.123331] (-) TimerEvent: {}
+[5.146309] (kalanchoe_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.223460] (-) TimerEvent: {}
+[5.323916] (-) TimerEvent: {}
+[5.424430] (-) TimerEvent: {}
+[5.524872] (-) TimerEvent: {}
+[5.625350] (-) TimerEvent: {}
+[5.699507] (station_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[5.714370] (kalanchoe_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.725521] (-) TimerEvent: {}
+[5.731077] (kalanchoe_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[5.825633] (-) TimerEvent: {}
+[5.926048] (-) TimerEvent: {}
+[6.022518] (kalanchoe_interface) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3\n'}
+[6.026213] (-) TimerEvent: {}
+[6.126730] (-) TimerEvent: {}
+[6.227227] (-) TimerEvent: {}
+[6.327692] (-) TimerEvent: {}
+[6.428492] (-) TimerEvent: {}
+[6.447723] (station_interface) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[6.464838] (station_interface) StdoutLine: {'line': b'-- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)\n'}
+[6.528604] (-) TimerEvent: {}
+[6.628964] (-) TimerEvent: {}
+[6.729330] (-) TimerEvent: {}
+[6.776989] (station_interface) StdoutLine: {'line': b'-- Found PythonExtra: /usr/bin/python3\n'}
+[6.829488] (-) TimerEvent: {}
+[6.929997] (-) TimerEvent: {}
+[6.938486] (kalanchoe_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[7.030131] (-) TimerEvent: {}
+[7.032555] (kalanchoe_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.038850] (kalanchoe_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.052327] (kalanchoe_interface) StdoutLine: {'line': b'-- Configuring done (7.0s)\n'}
+[7.125189] (kalanchoe_interface) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.130298] (-) TimerEvent: {}
+[7.144269] (kalanchoe_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/ros2_ws/build/kalanchoe_interface\n'}
+[7.157083] (kalanchoe_interface) JobEnded: {'identifier': 'kalanchoe_interface', 'rc': 'SIGINT'}
+[7.230426] (-) TimerEvent: {}
+[7.330873] (-) TimerEvent: {}
+[7.431337] (-) TimerEvent: {}
+[7.531858] (-) TimerEvent: {}
+[7.632331] (-) TimerEvent: {}
+[7.684331] (station_interface) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed\n'}
+[7.732512] (-) TimerEvent: {}
+[7.833020] (-) TimerEvent: {}
+[7.836931] (station_interface) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[7.841642] (station_interface) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[7.853533] (station_interface) StdoutLine: {'line': b'-- Configuring done (7.8s)\n'}
+[7.933202] (-) TimerEvent: {}
+[7.942657] (station_interface) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[7.960815] (station_interface) StdoutLine: {'line': b'-- Build files have been written to: /home/diego/ros2_ws/build/station_interface\n'}
+[7.974607] (station_interface) JobEnded: {'identifier': 'station_interface', 'rc': 'SIGINT'}
+[7.976941] (nodo_data_monitoring) JobSkipped: {'identifier': 'nodo_data_monitoring'}
+[7.977112] (nodo_lighting_station) JobSkipped: {'identifier': 'nodo_lighting_station'}
+[7.977168] (nodo_xolobot_driver) JobSkipped: {'identifier': 'nodo_xolobot_driver'}
+[7.977217] (xolobot_ascending) JobSkipped: {'identifier': 'xolobot_ascending'}
+[7.977266] (-) EventReactorShutdown: {}

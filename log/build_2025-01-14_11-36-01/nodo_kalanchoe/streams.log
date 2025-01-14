@@ -1,0 +1,22 @@
+[2.654s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_kalanchoe': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_kalanchoe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_kalanchoe build --build-base /home/diego/ros2_ws/build/nodo_kalanchoe/build install --record /home/diego/ros2_ws/build/nodo_kalanchoe/install.log --single-version-externally-managed install_data
+[3.247s] running egg_info
+[3.292s] writing ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/PKG-INFO
+[3.292s] writing dependency_links to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/dependency_links.txt
+[3.293s] writing entry points to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/entry_points.txt
+[3.293s] writing requirements to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/requires.txt
+[3.293s] writing top-level names to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/top_level.txt
+[3.383s] reading manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+[3.384s] adding license file 'LICENSE'
+[3.385s] writing manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+[3.386s] running build
+[3.386s] running build_py
+[3.386s] running install
+[3.399s] running install_lib
+[3.445s] running install_data
+[3.446s] running install_egg_info
+[3.493s] removing '/home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe-0.0.0-py3.12.egg-info' (and everything under it)
+[3.493s] Copying ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe-0.0.0-py3.12.egg-info
+[3.495s] running install_scripts
+[3.757s] Installing start_kalanchoe script to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/nodo_kalanchoe
+[3.757s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_kalanchoe/install.log'
+[3.847s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_kalanchoe' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_kalanchoe/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_kalanchoe build --build-base /home/diego/ros2_ws/build/nodo_kalanchoe/build install --record /home/diego/ros2_ws/build/nodo_kalanchoe/install.log --single-version-externally-managed install_data

@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "kalanchoe_interface__py",
+		"source" : "/home/diego/ros2_ws/build/kalanchoe_interface/kalanchoe_interface__py"
+	}
+}

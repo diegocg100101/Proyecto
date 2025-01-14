@@ -1,0 +1,2 @@
+[console_scripts]
+start_watering_station = nodo_watering_station.Control_Riego:main

@@ -1,0 +1,6 @@
+[2.161s] Invoking command in '/home/diego/ros2_ws/build/xolobot_blueprint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/xolobot_blueprint -- -j8 -l8
+[2.250s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[3.629s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.998s] -- Configuring done (1.8s)
+[4.022s] -- Generating done (0.0s)
+[4.030s] -- Build files have been written to: /home/diego/ros2_ws/build/xolobot_blueprint

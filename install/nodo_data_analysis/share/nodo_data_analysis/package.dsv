@@ -1,0 +1,6 @@
+source;share/nodo_data_analysis/hook/pythonpath.ps1
+source;share/nodo_data_analysis/hook/pythonpath.dsv
+source;share/nodo_data_analysis/hook/pythonpath.sh
+source;share/nodo_data_analysis/hook/ament_prefix_path.ps1
+source;share/nodo_data_analysis/hook/ament_prefix_path.dsv
+source;share/nodo_data_analysis/hook/ament_prefix_path.sh

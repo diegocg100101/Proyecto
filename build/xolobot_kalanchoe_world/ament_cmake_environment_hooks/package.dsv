@@ -1,0 +1,4 @@
+source;share/xolobot_kalanchoe_world/local_setup.bash
+source;share/xolobot_kalanchoe_world/local_setup.dsv
+source;share/xolobot_kalanchoe_world/local_setup.sh
+source;share/xolobot_kalanchoe_world/local_setup.zsh

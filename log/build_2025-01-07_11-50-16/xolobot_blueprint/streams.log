@@ -1,0 +1,19 @@
+[1.551s] Invoking command in '/home/diego/ros2_ws/build/xolobot_blueprint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_blueprint
+[1.707s] -- The C compiler identification is GNU 13.3.0
+[1.882s] -- The CXX compiler identification is GNU 13.3.0
+[1.914s] -- Detecting C compiler ABI info
+[2.087s] -- Detecting C compiler ABI info - done
+[2.138s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.139s] -- Detecting C compile features
+[2.140s] -- Detecting C compile features - done
+[2.152s] -- Detecting CXX compiler ABI info
+[2.361s] -- Detecting CXX compiler ABI info - done
+[2.415s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.416s] -- Detecting CXX compile features
+[2.418s] -- Detecting CXX compile features - done
+[2.430s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.892s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter
+[3.250s] -- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[3.464s] -- Configuring done (1.9s)
+[3.472s] -- Generating done (0.0s)
+[3.474s] -- Build files have been written to: /home/diego/ros2_ws/build/xolobot_blueprint

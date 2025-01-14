@@ -1,0 +1,7 @@
+{
+  "package_name": "kalanchoe_interface",
+  "output_dir": "/home/diego/ros2_ws/build/kalanchoe_interface/rosidl_generator_type_description/kalanchoe_interface",
+  "idl_tuples": [
+    "/home/diego/ros2_ws/build/kalanchoe_interface/rosidl_adapter/kalanchoe_interface:msg/Measure.idl"
+  ]
+}

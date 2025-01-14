@@ -1,0 +1,2 @@
+[console_scripts]
+start_monitoring = nodo_data_monitoring.MonitoringNode:main

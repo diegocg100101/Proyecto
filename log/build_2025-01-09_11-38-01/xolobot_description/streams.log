@@ -1,0 +1,45 @@
+[0.133s] Invoking command in '/home/diego/ros2_ws/build/xolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/xolobot_description -- -j8 -l8
+[2.241s] Invoked command in '/home/diego/ros2_ws/build/xolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/xolobot_description -- -j8 -l8
+[2.254s] Invoking command in '/home/diego/ros2_ws/build/xolobot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/xolobot_description
+[2.273s] -- Install configuration: ""
+[2.273s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models
+[2.274s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/rrbot
+[2.274s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/rrbot/model.sdf
+[2.274s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive
+[2.275s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive/model.config
+[2.275s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/diff_drive/model.sdf
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/box.sdf
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/model_backup.sdf
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/minibot.sdf
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/minixolo.sdf
+[2.276s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/otros_robots/model.sdf
+[2.278s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive
+[2.279s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes
+[2.280s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_sensor.dae
+[2.282s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base_altura_ok.dae
+[2.283s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel_mejorado_backup.dae
+[2.285s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base_backup.dae
+[2.288s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel_mejorado.dae
+[2.288s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_wheel.dae
+[2.288s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/meshes/arlo_base.dae
+[2.290s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/model.config
+[2.292s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/models/arlodrive/xolobot.sdf
+[2.292s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/xolobot_description.dsv
+[2.293s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/xolobot_description.sh
+[2.294s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/package_run_dependencies/xolobot_description
+[2.294s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/parent_prefix_path/xolobot_description
+[2.294s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/ament_prefix_path.sh
+[2.294s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/ament_prefix_path.dsv
+[2.294s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/path.sh
+[2.295s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/environment/path.dsv
+[2.295s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.bash
+[2.295s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.sh
+[2.295s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.zsh
+[2.296s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/local_setup.dsv
+[2.299s] -- Installing: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/package.dsv
+[2.299s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/ament_index/resource_index/packages/xolobot_description
+[2.300s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/cmake/xolobot_descriptionConfig.cmake
+[2.300s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/cmake/xolobot_descriptionConfig-version.cmake
+[2.300s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/package.xml
+[2.395s] Invoked command in '/home/diego/ros2_ws/build/xolobot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/xolobot_description

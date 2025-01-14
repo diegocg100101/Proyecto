@@ -1,0 +1,2 @@
+[console_scripts]
+start_xolo_driver = nodo_xolobot_driver.XolobotDriver:main

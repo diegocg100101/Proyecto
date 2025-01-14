@@ -1,0 +1,2 @@
+ament_prepend_unique_value IGN_GAZEBO_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/xolobot_tengo_sed/worlds"
+ament_prepend_unique_value IGN_GAZEBO_RESOURCE_PATH "$AMENT_CURRENT_PREFIX/share/xolobot_tengo_sed/models"

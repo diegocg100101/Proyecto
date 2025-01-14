@@ -1,0 +1,38 @@
+[3.586s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_xolobot_driver': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/station_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_xolobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages:/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_xolobot_driver build --build-base /home/diego/ros2_ws/build/nodo_xolobot_driver/build install --record /home/diego/ros2_ws/build/nodo_xolobot_driver/install.log --single-version-externally-managed install_data
+[4.202s] running egg_info
+[4.202s] creating ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info
+[4.249s] writing ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/PKG-INFO
+[4.250s] writing dependency_links to ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/dependency_links.txt
+[4.250s] writing entry points to ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/entry_points.txt
+[4.251s] writing requirements to ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/requires.txt
+[4.251s] writing top-level names to ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/top_level.txt
+[4.251s] writing manifest file '../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/SOURCES.txt'
+[4.357s] reading manifest file '../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/SOURCES.txt'
+[4.357s] adding license file 'LICENSE'
+[4.359s] writing manifest file '../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/SOURCES.txt'
+[4.360s] running build
+[4.360s] running build_py
+[4.361s] creating /home/diego/ros2_ws/build/nodo_xolobot_driver/build
+[4.361s] creating /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib
+[4.362s] creating /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib/nodo_xolobot_driver
+[4.362s] copying nodo_xolobot_driver/__init__.py -> /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib/nodo_xolobot_driver
+[4.362s] copying nodo_xolobot_driver/XolobotDriver.py -> /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib/nodo_xolobot_driver
+[4.362s] running install
+[4.375s] running install_lib
+[4.423s] creating /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver
+[4.423s] copying /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib/nodo_xolobot_driver/__init__.py -> /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver
+[4.424s] copying /home/diego/ros2_ws/build/nodo_xolobot_driver/build/lib/nodo_xolobot_driver/XolobotDriver.py -> /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver
+[4.425s] byte-compiling /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver/__init__.py to __init__.cpython-312.pyc
+[4.426s] byte-compiling /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver/XolobotDriver.py to XolobotDriver.cpython-312.pyc
+[4.431s] running install_data
+[4.432s] creating /home/diego/ros2_ws/install/nodo_xolobot_driver/share/ament_index
+[4.432s] creating /home/diego/ros2_ws/install/nodo_xolobot_driver/share/ament_index/resource_index
+[4.432s] creating /home/diego/ros2_ws/install/nodo_xolobot_driver/share/ament_index/resource_index/packages
+[4.433s] copying resource/nodo_xolobot_driver -> /home/diego/ros2_ws/install/nodo_xolobot_driver/share/ament_index/resource_index/packages
+[4.433s] copying package.xml -> /home/diego/ros2_ws/install/nodo_xolobot_driver/share/nodo_xolobot_driver
+[4.433s] running install_egg_info
+[4.492s] Copying ../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info to /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages/nodo_xolobot_driver-0.0.0-py3.12.egg-info
+[4.494s] running install_scripts
+[4.794s] Installing start_xolo_driver script to /home/diego/ros2_ws/install/nodo_xolobot_driver/lib/nodo_xolobot_driver
+[4.795s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_xolobot_driver/install.log'
+[4.892s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_xolobot_driver' returned '0': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/station_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_xolobot_driver/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_xolobot_driver/lib/python3.12/site-packages:/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_xolobot_driver build --build-base /home/diego/ros2_ws/build/nodo_xolobot_driver/build install --record /home/diego/ros2_ws/build/nodo_xolobot_driver/install.log --single-version-externally-managed install_data

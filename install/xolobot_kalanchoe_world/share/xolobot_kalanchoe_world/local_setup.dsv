@@ -1,0 +1,4 @@
+source;share/xolobot_kalanchoe_world/environment/ament_prefix_path.sh
+source;share/xolobot_kalanchoe_world/environment/path.sh
+source;share/xolobot_kalanchoe_world/environment/xolobot_kalanchoe_world.sh
+source;share/xolobot_kalanchoe_world/environment/xolobot_kalanchoe_world.dsv

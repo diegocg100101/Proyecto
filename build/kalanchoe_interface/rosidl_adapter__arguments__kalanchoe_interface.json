@@ -1,0 +1,6 @@
+{
+  "package_name": "kalanchoe_interface",
+  "non_idl_tuples": [
+    "/home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface:msg/Measure.msg"
+  ]
+}

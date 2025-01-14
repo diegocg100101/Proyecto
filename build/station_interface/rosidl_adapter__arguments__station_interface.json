@@ -1,0 +1,6 @@
+{
+  "package_name": "station_interface",
+  "non_idl_tuples": [
+    "/home/diego/ros2_ws/src/tengo_mas_sed/station_interface:srv/Reload.srv"
+  ]
+}

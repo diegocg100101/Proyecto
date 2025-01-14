@@ -1,0 +1,4 @@
+source;share/kalanchoe_interface/local_setup.bash
+source;share/kalanchoe_interface/local_setup.dsv
+source;share/kalanchoe_interface/local_setup.sh
+source;share/kalanchoe_interface/local_setup.zsh

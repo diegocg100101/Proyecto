@@ -1,0 +1,17 @@
+LICENSE
+package.xml
+setup.cfg
+setup.py
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/PKG-INFO
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/SOURCES.txt
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/dependency_links.txt
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/entry_points.txt
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/requires.txt
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/top_level.txt
+../../../build/nodo_xolobot_driver/nodo_xolobot_driver.egg-info/zip-safe
+nodo_xolobot_driver/XolobotDriver.py
+nodo_xolobot_driver/__init__.py
+resource/nodo_xolobot_driver
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py

@@ -1,0 +1,2 @@
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/xolobot_tengo_sed/worlds
+prepend-non-duplicate;IGN_GAZEBO_RESOURCE_PATH;share/xolobot_tengo_sed/model

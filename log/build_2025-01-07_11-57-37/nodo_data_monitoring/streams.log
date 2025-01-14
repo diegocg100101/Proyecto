@@ -1,0 +1,41 @@
+[3.428s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_monitoring': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/kalanchoe_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/kalanchoe_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/kalanchoe_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_data_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages:/home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_data_monitoring build --build-base /home/diego/ros2_ws/build/nodo_data_monitoring/build install --record /home/diego/ros2_ws/build/nodo_data_monitoring/install.log --single-version-externally-managed install_data
+[4.042s] running egg_info
+[4.043s] creating ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info
+[4.086s] writing ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/PKG-INFO
+[4.087s] writing dependency_links to ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/dependency_links.txt
+[4.087s] writing entry points to ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/entry_points.txt
+[4.088s] writing requirements to ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/requires.txt
+[4.088s] writing top-level names to ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/top_level.txt
+[4.088s] writing manifest file '../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/SOURCES.txt'
+[4.181s] reading manifest file '../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/SOURCES.txt'
+[4.181s] adding license file 'LICENSE'
+[4.182s] writing manifest file '../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info/SOURCES.txt'
+[4.183s] running build
+[4.183s] running build_py
+[4.183s] creating /home/diego/ros2_ws/build/nodo_data_monitoring/build
+[4.183s] creating /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib
+[4.183s] creating /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring
+[4.184s] copying nodo_data_monitoring/MonitoringNode.py -> /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring
+[4.184s] copying nodo_data_monitoring/__init__.py -> /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring
+[4.184s] copying nodo_data_monitoring/TestPublisher.py -> /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring
+[4.185s] running install
+[4.200s] running install_lib
+[4.249s] creating /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring
+[4.250s] copying /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring/MonitoringNode.py -> /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring
+[4.250s] copying /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring/__init__.py -> /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring
+[4.250s] copying /home/diego/ros2_ws/build/nodo_data_monitoring/build/lib/nodo_data_monitoring/TestPublisher.py -> /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring
+[4.251s] byte-compiling /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring/MonitoringNode.py to MonitoringNode.cpython-312.pyc
+[4.253s] byte-compiling /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring/__init__.py to __init__.cpython-312.pyc
+[4.254s] byte-compiling /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring/TestPublisher.py to TestPublisher.cpython-312.pyc
+[4.255s] running install_data
+[4.256s] creating /home/diego/ros2_ws/install/nodo_data_monitoring/share/ament_index
+[4.256s] creating /home/diego/ros2_ws/install/nodo_data_monitoring/share/ament_index/resource_index
+[4.256s] creating /home/diego/ros2_ws/install/nodo_data_monitoring/share/ament_index/resource_index/packages
+[4.257s] copying resource/nodo_data_monitoring -> /home/diego/ros2_ws/install/nodo_data_monitoring/share/ament_index/resource_index/packages
+[4.258s] copying package.xml -> /home/diego/ros2_ws/install/nodo_data_monitoring/share/nodo_data_monitoring
+[4.258s] running install_egg_info
+[4.308s] Copying ../../../build/nodo_data_monitoring/nodo_data_monitoring.egg-info to /home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages/nodo_data_monitoring-0.0.0-py3.12.egg-info
+[4.310s] running install_scripts
+[4.625s] Installing start_monitoring script to /home/diego/ros2_ws/install/nodo_data_monitoring/lib/nodo_data_monitoring
+[4.626s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_data_monitoring/install.log'
+[4.729s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_monitoring' returned '0': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/kalanchoe_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/kalanchoe_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/kalanchoe_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_data_monitoring/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_data_monitoring/lib/python3.12/site-packages:/home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_data_monitoring build --build-base /home/diego/ros2_ws/build/nodo_data_monitoring/build install --record /home/diego/ros2_ws/build/nodo_data_monitoring/install.log --single-version-externally-managed install_data

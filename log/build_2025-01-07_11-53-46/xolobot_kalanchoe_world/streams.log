@@ -1,0 +1,21 @@
+[0.066s] Invoking command in '/home/diego/ros2_ws/build/xolobot_kalanchoe_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_kalanchoe_world
+[2.183s] -- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[2.184s] -- Configuring incomplete, errors occurred!
+[2.184s] [31mCMake Error at CMakeLists.txt:11 (find_package):
+[2.184s]   By not providing "Findxolobot_description.cmake" in CMAKE_MODULE_PATH this
+[2.184s]   project has asked CMake to find a package configuration file provided by
+[2.197s]   "xolobot_description", but CMake did not find one.
+[2.197s] 
+[2.197s]   Could not find a package configuration file provided by
+[2.198s]   "xolobot_description" with any of the following names:
+[2.198s] 
+[2.198s]     xolobot_descriptionConfig.cmake
+[2.198s]     xolobot_description-config.cmake
+[2.199s] 
+[2.199s]   Add the installation prefix of "xolobot_description" to CMAKE_PREFIX_PATH
+[2.199s]   or set "xolobot_description_DIR" to a directory containing one of the above
+[2.199s]   files.  If "xolobot_description" provides a separate development package or
+[2.199s]   SDK, be sure it has been installed.
+[2.200s] 
+[2.200s] [0m
+[2.232s] Invoked command in '/home/diego/ros2_ws/build/xolobot_kalanchoe_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_kalanchoe_world

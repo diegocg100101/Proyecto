@@ -1,0 +1,2 @@
+[console_scripts]
+start_data_analysis = nodo_data_analysis.nodo_analisis:main

@@ -1,0 +1,13 @@
+{
+  "package_name": "station_interface",
+  "output_dir": "/home/diego/ros2_ws/build/station_interface/rosidl_generator_type_description/station_interface",
+  "idl_tuples": [
+    "/home/diego/ros2_ws/build/station_interface/rosidl_adapter/station_interface:srv/Reload.idl"
+  ],
+  "include_paths": [
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs",
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "service_msgs:/opt/ros/jazzy/share/service_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces"
+  ]
+}

@@ -1,0 +1,389 @@
+[0.200s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.200s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7accc2794c50>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7accc28bc860>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7accc28bc860>>, mixin_verb=('build',))
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.275s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.275s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/diego/ros2_ws'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.276s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.328s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.329s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['ignore', 'ignore_ament_install']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'ignore'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['colcon_pkg']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'colcon_pkg'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['colcon_meta']
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'colcon_meta'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['ros']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'ros'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['cmake', 'python']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'cmake'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'python'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extensions ['python_setup_py']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed) by extension 'python_setup_py'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extension 'ignore'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extension 'ignore_ament_install'
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extensions ['colcon_pkg']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extension 'colcon_pkg'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extensions ['colcon_meta']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extension 'colcon_meta'
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extensions ['ros']
+[0.332s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/kalanchoe_interface) by extension 'ros'
+[0.336s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/kalanchoe_interface' with type 'ros.ament_cmake' and name 'kalanchoe_interface'
+[0.336s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extensions ['ignore', 'ignore_ament_install']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extension 'ignore'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extension 'ignore_ament_install'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extensions ['colcon_pkg']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extension 'colcon_pkg'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extensions ['colcon_meta']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extension 'colcon_meta'
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extensions ['ros']
+[0.337s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_analysis) by extension 'ros'
+[0.338s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_data_analysis' with type 'ros.ament_python' and name 'nodo_data_analysis'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extensions ['ignore', 'ignore_ament_install']
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extension 'ignore'
+[0.338s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extension 'ignore_ament_install'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extensions ['colcon_pkg']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extension 'colcon_pkg'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extensions ['colcon_meta']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extension 'colcon_meta'
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extensions ['ros']
+[0.339s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_data_monitoring) by extension 'ros'
+[0.340s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_data_monitoring' with type 'ros.ament_python' and name 'nodo_data_monitoring'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extensions ['ignore', 'ignore_ament_install']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extension 'ignore'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extension 'ignore_ament_install'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extensions ['colcon_pkg']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extension 'colcon_pkg'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extensions ['colcon_meta']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extension 'colcon_meta'
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extensions ['ros']
+[0.340s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_kalanchoe) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_kalanchoe' with type 'ros.ament_python' and name 'nodo_kalanchoe'
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extensions ['ignore', 'ignore_ament_install']
+[0.341s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extension 'ignore'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extension 'ignore_ament_install'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extensions ['colcon_pkg']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extension 'colcon_pkg'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extensions ['colcon_meta']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extension 'colcon_meta'
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extensions ['ros']
+[0.342s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_lighting_station) by extension 'ros'
+[0.343s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_lighting_station' with type 'ros.ament_python' and name 'nodo_lighting_station'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extensions ['ignore', 'ignore_ament_install']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extension 'ignore'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extension 'ignore_ament_install'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extensions ['colcon_pkg']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extension 'colcon_pkg'
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extensions ['colcon_meta']
+[0.343s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extension 'colcon_meta'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extensions ['ros']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_watering_station) by extension 'ros'
+[0.344s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_watering_station' with type 'ros.ament_python' and name 'nodo_watering_station'
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extensions ['ignore', 'ignore_ament_install']
+[0.344s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extension 'ignore'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extension 'ignore_ament_install'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extensions ['colcon_pkg']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extension 'colcon_pkg'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extensions ['colcon_meta']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extension 'colcon_meta'
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extensions ['ros']
+[0.345s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/nodo_xolobot_driver) by extension 'ros'
+[0.346s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/nodo_xolobot_driver' with type 'ros.ament_python' and name 'nodo_xolobot_driver'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['ignore', 'ignore_ament_install']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'ignore'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'ignore_ament_install'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['colcon_pkg']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'colcon_pkg'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['colcon_meta']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'colcon_meta'
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['ros']
+[0.346s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'ros'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['cmake', 'python']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'cmake'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'python'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extensions ['python_setup_py']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes) by extension 'python_setup_py'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extensions ['ignore', 'ignore_ament_install']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extension 'ignore'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extension 'ignore_ament_install'
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extensions ['colcon_pkg']
+[0.347s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extension 'colcon_pkg'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extensions ['colcon_meta']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extension 'colcon_meta'
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extensions ['ros']
+[0.348s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_ascending) by extension 'ros'
+[0.349s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/robot_world_nodes/xolobot_ascending' with type 'ros.ament_cmake' and name 'xolobot_ascending'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extensions ['ignore', 'ignore_ament_install']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extension 'ignore'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extension 'ignore_ament_install'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extensions ['colcon_pkg']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extension 'colcon_pkg'
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extensions ['colcon_meta']
+[0.349s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extension 'colcon_meta'
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extensions ['ros']
+[0.350s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint) by extension 'ros'
+[0.350s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint' with type 'ros.ament_cmake' and name 'xolobot_blueprint'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extensions ['ignore', 'ignore_ament_install']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extension 'ignore'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extension 'ignore_ament_install'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extensions ['colcon_pkg']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extension 'colcon_pkg'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extensions ['colcon_meta']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extension 'colcon_meta'
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extensions ['ros']
+[0.351s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world) by extension 'ros'
+[0.352s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world' with type 'ros.ament_cmake' and name 'xolobot_kalanchoe_world'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extension 'ignore'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extension 'ignore_ament_install'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extensions ['colcon_pkg']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extension 'colcon_pkg'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extensions ['colcon_meta']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extension 'colcon_meta'
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extensions ['ros']
+[0.353s] Level 1:colcon.colcon_core.package_identification:_identify(src/tengo_mas_sed/station_interface) by extension 'ros'
+[0.354s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tengo_mas_sed/station_interface' with type 'ros.ament_cmake' and name 'station_interface'
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.354s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.387s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.390s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 0 installed packages in /home/diego/ros2_ws/install
+[0.393s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 315 installed packages in /opt/ros/jazzy
+[0.396s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_args' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_target' from command line to 'None'
+[0.478s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'kalanchoe_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.479s] DEBUG:colcon.colcon_core.verb:Building package 'kalanchoe_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/kalanchoe_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/kalanchoe_interface', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface', 'symlink_install': False, 'test_result_base': None}
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_args' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_target' from command line to 'None'
+[0.479s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'cmake_force_configure' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'ament_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'catkin_cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_analysis' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.480s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_data_analysis' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_data_analysis', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_data_analysis', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_analysis', 'symlink_install': False, 'test_result_base': None}
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_args' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_target' from command line to 'None'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_clean_cache' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_clean_first' from command line to 'False'
+[0.480s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_kalanchoe' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_kalanchoe' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_kalanchoe', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_kalanchoe', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_kalanchoe', 'symlink_install': False, 'test_result_base': None}
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_target' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_clean_cache' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_clean_first' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'cmake_force_configure' from command line to 'False'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'ament_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'catkin_cmake_args' from command line to 'None'
+[0.481s] Level 5:colcon.colcon_core.verb:set package 'nodo_watering_station' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.481s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_watering_station' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_watering_station', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_watering_station', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_watering_station', 'symlink_install': False, 'test_result_base': None}
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_target' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.482s] Level 5:colcon.colcon_core.verb:set package 'station_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.482s] DEBUG:colcon.colcon_core.verb:Building package 'station_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/station_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/station_interface', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/station_interface', 'symlink_install': False, 'test_result_base': None}
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_target' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_clean_first' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'cmake_force_configure' from command line to 'False'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'ament_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.483s] Level 5:colcon.colcon_core.verb:set package 'xolobot_blueprint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.483s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_blueprint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/xolobot_blueprint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/xolobot_blueprint', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_clean_cache' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_clean_first' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'cmake_force_configure' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'ament_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'catkin_cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'xolobot_kalanchoe_world' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.484s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_kalanchoe_world' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/xolobot_kalanchoe_world', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/xolobot_kalanchoe_world', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world', 'symlink_install': False, 'test_result_base': None}
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_args' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_target' from command line to 'None'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.484s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_clean_cache' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_clean_first' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'cmake_force_configure' from command line to 'False'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'ament_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'catkin_cmake_args' from command line to 'None'
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_data_monitoring' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.485s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_data_monitoring' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_data_monitoring', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_data_monitoring', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_monitoring', 'symlink_install': False, 'test_result_base': None}
+[0.485s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'catkin_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_lighting_station' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.486s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_lighting_station' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_lighting_station', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_lighting_station', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_lighting_station', 'symlink_install': False, 'test_result_base': None}
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_target' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_clean_first' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'cmake_force_configure' from command line to 'False'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'ament_cmake_args' from command line to 'None'
+[0.486s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'nodo_xolobot_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'nodo_xolobot_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/nodo_xolobot_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/nodo_xolobot_driver', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_xolobot_driver', 'symlink_install': False, 'test_result_base': None}
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_target' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_clean_cache' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_clean_first' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'cmake_force_configure' from command line to 'False'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'ament_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'catkin_cmake_args' from command line to 'None'
+[0.487s] Level 5:colcon.colcon_core.verb:set package 'xolobot_ascending' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.487s] DEBUG:colcon.colcon_core.verb:Building package 'xolobot_ascending' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/diego/ros2_ws/build/xolobot_ascending', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/diego/ros2_ws/install/xolobot_ascending', 'merge_install': False, 'path': '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_ascending', 'symlink_install': False, 'test_result_base': None}
+[0.487s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.489s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.489s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/station_interface' with build type 'ament_cmake'
+[0.490s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diego/ros2_ws/src/tengo_mas_sed/station_interface'
+[0.495s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.495s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.495s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.504s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface' with build type 'ament_cmake'
+[0.504s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface'
+[0.504s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.504s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.510s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world' with build type 'ament_cmake'
+[0.510s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world'
+[0.511s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.511s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.517s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_analysis' with build type 'ament_python'
+[0.517s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodo_data_analysis', 'ament_prefix_path')
+[0.517s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_data_analysis/share/nodo_data_analysis/hook/ament_prefix_path.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diego/ros2_ws/install/nodo_data_analysis/share/nodo_data_analysis/hook/ament_prefix_path.dsv'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_data_analysis/share/nodo_data_analysis/hook/ament_prefix_path.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_kalanchoe' with build type 'ament_python'
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodo_kalanchoe', 'ament_prefix_path')
+[0.527s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_kalanchoe/share/nodo_kalanchoe/hook/ament_prefix_path.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diego/ros2_ws/install/nodo_kalanchoe/share/nodo_kalanchoe/hook/ament_prefix_path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_kalanchoe/share/nodo_kalanchoe/hook/ament_prefix_path.sh'
+[0.529s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.538s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_watering_station' with build type 'ament_python'
+[0.538s] Level 1:colcon.colcon_core.shell:create_environment_hook('nodo_watering_station', 'ament_prefix_path')
+[0.539s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_watering_station/share/nodo_watering_station/hook/ament_prefix_path.ps1'
+[0.540s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/diego/ros2_ws/install/nodo_watering_station/share/nodo_watering_station/hook/ament_prefix_path.dsv'
+[0.541s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/diego/ros2_ws/install/nodo_watering_station/share/nodo_watering_station/hook/ament_prefix_path.sh'
+[0.542s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.542s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.549s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint' with build type 'ament_cmake'
+[0.550s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint'
+[0.550s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.550s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.568s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diego/ros2_ws/build/station_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/station_interface -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/station_interface
+[0.572s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diego/ros2_ws/build/kalanchoe_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/kalanchoe_interface -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/kalanchoe_interface
+[0.577s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diego/ros2_ws/build/xolobot_kalanchoe_world': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_kalanchoe_world
+[1.086s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_analysis'
+[1.086s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.087s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.575s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_kalanchoe'
+[1.575s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.575s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.064s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_watering_station'
+[2.065s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.065s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.092s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/diego/ros2_ws/build/xolobot_kalanchoe_world' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_kalanchoe_world -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_kalanchoe_world
+[2.102s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/diego/ros2_ws/build/xolobot_blueprint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake /home/diego/ros2_ws/src/tengo_mas_sed/robot_world_nodes/xolobot_blueprint -DCMAKE_INSTALL_PREFIX=/home/diego/ros2_ws/install/xolobot_blueprint
+[2.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(xolobot_kalanchoe_world)
+[2.127s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world' for CMake module files
+[2.128s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world' for CMake config files
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/bin'
+[2.129s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/lib/pkgconfig/xolobot_kalanchoe_world.pc'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/lib/python3.12/site-packages'
+[2.130s] Level 1:colcon.colcon_core.environment:checking '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/bin'
+[2.131s] INFO:colcon.colcon_core.shell:Creating package script '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.ps1'
+[2.134s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.dsv'
+[2.135s] INFO:colcon.colcon_core.shell:Creating package script '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.sh'
+[2.136s] INFO:colcon.colcon_core.shell:Creating package script '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.bash'
+[2.138s] INFO:colcon.colcon_core.shell:Creating package script '/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.zsh'
+[2.140s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/colcon-core/packages/xolobot_kalanchoe_world)
+[8.464s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.465s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[8.465s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.483s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.484s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.484s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.513s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.514s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diego/ros2_ws/install/local_setup.ps1'
+[8.516s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diego/ros2_ws/install/_local_setup_util_ps1.py'
+[8.520s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diego/ros2_ws/install/setup.ps1'
+[8.523s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diego/ros2_ws/install/local_setup.sh'
+[8.524s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/diego/ros2_ws/install/_local_setup_util_sh.py'
+[8.526s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diego/ros2_ws/install/setup.sh'
+[8.529s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diego/ros2_ws/install/local_setup.bash'
+[8.530s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diego/ros2_ws/install/setup.bash'
+[8.533s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/diego/ros2_ws/install/local_setup.zsh'
+[8.535s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/diego/ros2_ws/install/setup.zsh'

@@ -1,0 +1,152 @@
+[0.077s] Invoking command in '/home/diego/ros2_ws/build/station_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/station_interface -- -j8 -l8
+[1.356s] [  2%] Built target station_interface__rosidl_generator_type_description
+[1.357s] [  2%] Built target ament_cmake_python_copy_station_interface
+[1.357s] [  5%] Built target station_interface__cpp
+[1.357s] [ 20%] Built target station_interface__rosidl_generator_c
+[1.357s] [ 29%] Built target station_interface__rosidl_typesupport_introspection_c
+[1.357s] [ 38%] Built target station_interface__rosidl_typesupport_introspection_cpp
+[1.357s] [ 47%] Built target station_interface__rosidl_typesupport_c
+[1.357s] [ 55%] Built target station_interface__rosidl_typesupport_fastrtps_c
+[1.357s] [ 64%] Built target station_interface__rosidl_typesupport_cpp
+[1.358s] [ 73%] Built target station_interface__rosidl_typesupport_fastrtps_cpp
+[1.358s] [ 73%] Built target station_interface
+[1.358s] [ 76%] Built target station_interface__py
+[1.358s] [ 82%] Built target station_interface__rosidl_generator_py
+[1.358s] [ 88%] Built target station_interface_s__rosidl_typesupport_introspection_c
+[1.359s] [ 94%] Built target station_interface_s__rosidl_typesupport_fastrtps_c
+[1.359s] [100%] Built target station_interface_s__rosidl_typesupport_c
+[1.359s] running egg_info
+[1.359s] writing station_interface.egg-info/PKG-INFO
+[1.360s] writing dependency_links to station_interface.egg-info/dependency_links.txt
+[1.360s] writing top-level names to station_interface.egg-info/top_level.txt
+[1.360s] reading manifest file 'station_interface.egg-info/SOURCES.txt'
+[1.361s] writing manifest file 'station_interface.egg-info/SOURCES.txt'
+[1.361s] [100%] Built target ament_cmake_python_build_station_interface_egg
+[1.373s] Invoked command in '/home/diego/ros2_ws/build/station_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/station_interface -- -j8 -l8
+[1.375s] Invoking command in '/home/diego/ros2_ws/build/station_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/station_interface
+[1.408s] -- Install configuration: ""
+[1.408s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/ament_index/resource_index/rosidl_interfaces/station_interface
+[1.408s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/srv/Reload.json
+[1.409s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.409s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.410s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/reload.h
+[1.410s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.410s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__struct.h
+[1.410s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__description.c
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__type_support.h
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__functions.h
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__functions.c
+[1.411s] -- Installing: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__type_support.c
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg/rosidl_generator_c__visibility_control.h
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/library_path.sh
+[1.411s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/library_path.dsv
+[1.412s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_generator_c.so
+[1.412s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.412s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.412s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.412s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__rosidl_typesupport_fastrtps_c.h
+[1.413s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg
+[1.413s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.415s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_fastrtps_c.so
+[1.415s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.416s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.416s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.417s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__traits.hpp
+[1.417s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__type_support.hpp
+[1.417s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__builder.hpp
+[1.417s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__struct.hpp
+[1.418s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/reload.hpp
+[1.418s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg
+[1.418s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.418s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/dds_fastrtps
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__rosidl_typesupport_fastrtps_cpp.hpp
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg
+[1.419s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.422s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.422s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.422s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.422s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.422s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__rosidl_typesupport_introspection_c.h
+[1.422s] -- Installing: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__type_support.c
+[1.424s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg
+[1.427s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.427s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_introspection_c.so
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_c.so
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__rosidl_typesupport_introspection_cpp.hpp
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/include/station_interface/station_interface/srv/detail/reload__type_support.cpp
+[1.428s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_introspection_cpp.so
+[1.429s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_typesupport_cpp.so
+[1.429s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/pythonpath.sh
+[1.429s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/pythonpath.dsv
+[1.430s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface-0.0.0-py3.12.egg-info
+[1.430s] -- Installing: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.432s] -- Installing: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.433s] -- Installing: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[1.433s] -- Installing: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface-0.0.0-py3.12.egg-info/top_level.txt
+[1.433s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface
+[1.433s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/__init__.py
+[1.433s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/_station_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.434s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_c.so
+[1.434s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.434s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/_station_interface_s.ep.rosidl_typesupport_c.c
+[1.434s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/_station_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.434s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/srv
+[1.435s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/srv/__init__.py
+[1.443s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/srv/_reload_s.c
+[1.443s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/srv/_reload.py
+[1.444s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_introspection_c.so
+[1.518s] Listing '/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface'...
+[1.518s] Listing '/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/srv'...
+[1.543s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.555s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_introspection_c.so
+[1.572s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages/station_interface/station_interface_s__rosidl_typesupport_c.so
+[1.575s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/lib/libstation_interface__rosidl_generator_py.so
+[1.575s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/srv/Reload.idl
+[1.575s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/srv/Reload.srv
+[1.576s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/ament_index/resource_index/package_run_dependencies/station_interface
+[1.576s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/ament_index/resource_index/parent_prefix_path/station_interface
+[1.576s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/ament_prefix_path.sh
+[1.576s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/ament_prefix_path.dsv
+[1.577s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/path.sh
+[1.577s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/environment/path.dsv
+[1.578s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/local_setup.bash
+[1.579s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/local_setup.sh
+[1.579s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/local_setup.zsh
+[1.579s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/local_setup.dsv
+[1.580s] -- Installing: /home/diego/ros2_ws/install/station_interface/share/station_interface/package.dsv
+[1.580s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/ament_index/resource_index/packages/station_interface
+[1.580s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_generator_cExport.cmake
+[1.581s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_generator_cExport-noconfig.cmake
+[1.581s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.581s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.581s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_generator_cppExport.cmake
+[1.584s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.584s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.588s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.589s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.589s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_cExport.cmake
+[1.590s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.591s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.591s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.592s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_cppExport.cmake
+[1.592s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.593s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_generator_pyExport.cmake
+[1.595s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/export_station_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.597s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/rosidl_cmake-extras.cmake
+[1.599s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.599s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.599s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.599s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.602s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.602s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.603s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interfaceConfig.cmake
+[1.603s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/cmake/station_interfaceConfig-version.cmake
+[1.603s] -- Up-to-date: /home/diego/ros2_ws/install/station_interface/share/station_interface/package.xml
+[1.627s] Invoked command in '/home/diego/ros2_ws/build/station_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/station_interface

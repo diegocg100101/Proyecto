@@ -1,0 +1,36 @@
+running egg_info
+creating ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info
+writing ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/dependency_links.txt
+writing entry points to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/entry_points.txt
+writing requirements to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/requires.txt
+writing top-level names to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/top_level.txt
+writing manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+reading manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/diego/ros2_ws/build/nodo_kalanchoe/build
+creating /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib
+creating /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib/nodo_kalanchoe
+copying nodo_kalanchoe/__init__.py -> /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib/nodo_kalanchoe
+copying nodo_kalanchoe/pubsub_planta.py -> /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib/nodo_kalanchoe
+running install
+running install_lib
+creating /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe
+copying /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib/nodo_kalanchoe/__init__.py -> /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe
+copying /home/diego/ros2_ws/build/nodo_kalanchoe/build/lib/nodo_kalanchoe/pubsub_planta.py -> /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe
+byte-compiling /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe/pubsub_planta.py to pubsub_planta.cpython-312.pyc
+running install_data
+creating /home/diego/ros2_ws/install/nodo_kalanchoe/share/ament_index
+creating /home/diego/ros2_ws/install/nodo_kalanchoe/share/ament_index/resource_index
+creating /home/diego/ros2_ws/install/nodo_kalanchoe/share/ament_index/resource_index/packages
+copying resource/nodo_kalanchoe -> /home/diego/ros2_ws/install/nodo_kalanchoe/share/ament_index/resource_index/packages
+copying package.xml -> /home/diego/ros2_ws/install/nodo_kalanchoe/share/nodo_kalanchoe
+running install_egg_info
+Copying ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe-0.0.0-py3.12.egg-info
+running install_scripts
+Installing start_kalanchoe script to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/nodo_kalanchoe
+writing list of installed files to '/home/diego/ros2_ws/build/nodo_kalanchoe/install.log'

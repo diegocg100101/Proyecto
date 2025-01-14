@@ -1,0 +1,7 @@
+float64 load
+int32 id
+---
+bool success
+float64 time
+bool libre
+

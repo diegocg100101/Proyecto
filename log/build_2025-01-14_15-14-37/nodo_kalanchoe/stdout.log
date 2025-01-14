@@ -1,0 +1,20 @@
+running egg_info
+writing ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/PKG-INFO
+writing dependency_links to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/dependency_links.txt
+writing entry points to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/entry_points.txt
+writing requirements to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/requires.txt
+writing top-level names to ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/top_level.txt
+reading manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe-0.0.0-py3.12.egg-info' (and everything under it)
+Copying ../../../build/nodo_kalanchoe/nodo_kalanchoe.egg-info to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/python3.12/site-packages/nodo_kalanchoe-0.0.0-py3.12.egg-info
+running install_scripts
+Installing start_kalanchoe script to /home/diego/ros2_ws/install/nodo_kalanchoe/lib/nodo_kalanchoe
+writing list of installed files to '/home/diego/ros2_ws/build/nodo_kalanchoe/install.log'

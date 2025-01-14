@@ -1,0 +1,2 @@
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share;/home/diego/ros2_ws/install/xolobot_blueprint/share
+prepend-non-duplicate;GZ_SIM_RESOURCE_PATH;share/xolobot_blueprint/models/arlodrive

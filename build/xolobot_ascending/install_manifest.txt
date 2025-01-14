@@ -1,0 +1,17 @@
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/launch/xolobot.launch.py
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/config/ros_gz_example_bridge.yaml
+/home/diego/ros2_ws/install/xolobot_ascending/share/ament_index/resource_index/package_run_dependencies/xolobot_ascending
+/home/diego/ros2_ws/install/xolobot_ascending/share/ament_index/resource_index/parent_prefix_path/xolobot_ascending
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/environment/ament_prefix_path.sh
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/environment/ament_prefix_path.dsv
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/environment/path.sh
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/environment/path.dsv
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/local_setup.bash
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/local_setup.sh
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/local_setup.zsh
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/local_setup.dsv
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/package.dsv
+/home/diego/ros2_ws/install/xolobot_ascending/share/ament_index/resource_index/packages/xolobot_ascending
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/cmake/xolobot_ascendingConfig.cmake
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/cmake/xolobot_ascendingConfig-version.cmake
+/home/diego/ros2_ws/install/xolobot_ascending/share/xolobot_ascending/package.xml

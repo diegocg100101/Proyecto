@@ -1,0 +1,26 @@
+-- Found ament_cmake: 2.5.3 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found xolobot_description: 0.0.0 (/home/diego/ros2_ws/install/xolobot_description/share/xolobot_description/cmake)
+-- Found ament_lint_auto: 0.17.1 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/diego/ros2_ws/build/xolobot_kalanchoe_world
+-- Install configuration: ""
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/worlds
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/worlds/xolobot_world_encinal.sdf
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/xolobot_kalanchoe_world.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/xolobot_kalanchoe_world.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/ament_index/resource_index/package_run_dependencies/xolobot_kalanchoe_world
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/ament_index/resource_index/parent_prefix_path/xolobot_kalanchoe_world
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/ament_prefix_path.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/ament_prefix_path.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/path.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/environment/path.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/local_setup.bash
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/local_setup.sh
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/local_setup.zsh
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/local_setup.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.dsv
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/ament_index/resource_index/packages/xolobot_kalanchoe_world
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/cmake/xolobot_kalanchoe_worldConfig.cmake
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/cmake/xolobot_kalanchoe_worldConfig-version.cmake
+-- Installing: /home/diego/ros2_ws/install/xolobot_kalanchoe_world/share/xolobot_kalanchoe_world/package.xml

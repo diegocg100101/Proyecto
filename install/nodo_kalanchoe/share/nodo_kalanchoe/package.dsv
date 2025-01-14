@@ -1,0 +1,6 @@
+source;share/nodo_kalanchoe/hook/pythonpath.ps1
+source;share/nodo_kalanchoe/hook/pythonpath.dsv
+source;share/nodo_kalanchoe/hook/pythonpath.sh
+source;share/nodo_kalanchoe/hook/ament_prefix_path.ps1
+source;share/nodo_kalanchoe/hook/ament_prefix_path.dsv
+source;share/nodo_kalanchoe/hook/ament_prefix_path.sh

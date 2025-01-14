@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "station_interface__py",
+		"source" : "/home/diego/ros2_ws/build/station_interface/station_interface__py"
+	}
+}

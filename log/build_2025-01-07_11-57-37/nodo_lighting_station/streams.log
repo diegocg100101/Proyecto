@@ -1,0 +1,38 @@
+[3.528s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_lighting_station': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/station_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_lighting_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages:/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_lighting_station build --build-base /home/diego/ros2_ws/build/nodo_lighting_station/build install --record /home/diego/ros2_ws/build/nodo_lighting_station/install.log --single-version-externally-managed install_data
+[4.174s] running egg_info
+[4.174s] creating ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info
+[4.219s] writing ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/PKG-INFO
+[4.219s] writing dependency_links to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/dependency_links.txt
+[4.220s] writing entry points to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/entry_points.txt
+[4.220s] writing requirements to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/requires.txt
+[4.220s] writing top-level names to ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/top_level.txt
+[4.220s] writing manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+[4.325s] reading manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+[4.325s] adding license file 'LICENSE'
+[4.327s] writing manifest file '../../../build/nodo_lighting_station/nodo_lighting_station.egg-info/SOURCES.txt'
+[4.327s] running build
+[4.327s] running build_py
+[4.328s] creating /home/diego/ros2_ws/build/nodo_lighting_station/build
+[4.328s] creating /home/diego/ros2_ws/build/nodo_lighting_station/build/lib
+[4.329s] creating /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+[4.329s] copying nodo_lighting_station/__init__.py -> /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+[4.329s] copying nodo_lighting_station/SunController.py -> /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station
+[4.329s] running install
+[4.347s] running install_lib
+[4.400s] creating /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+[4.400s] copying /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station/__init__.py -> /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+[4.401s] copying /home/diego/ros2_ws/build/nodo_lighting_station/build/lib/nodo_lighting_station/SunController.py -> /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station
+[4.401s] byte-compiling /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station/__init__.py to __init__.cpython-312.pyc
+[4.402s] byte-compiling /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station/SunController.py to SunController.cpython-312.pyc
+[4.405s] running install_data
+[4.406s] creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index
+[4.406s] creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index
+[4.406s] creating /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index/packages
+[4.407s] copying resource/nodo_lighting_station -> /home/diego/ros2_ws/install/nodo_lighting_station/share/ament_index/resource_index/packages
+[4.407s] copying package.xml -> /home/diego/ros2_ws/install/nodo_lighting_station/share/nodo_lighting_station
+[4.407s] running install_egg_info
+[4.457s] Copying ../../../build/nodo_lighting_station/nodo_lighting_station.egg-info to /home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages/nodo_lighting_station-0.0.0-py3.12.egg-info
+[4.459s] running install_scripts
+[4.773s] Installing start_light_station script to /home/diego/ros2_ws/install/nodo_lighting_station/lib/nodo_lighting_station
+[4.773s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_lighting_station/install.log'
+[4.876s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_lighting_station' returned '0': AMENT_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/diego/ros2_ws/install/station_interface:${CMAKE_PREFIX_PATH} DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/diego/ros2_ws/install/station_interface/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/diego/ros2_ws/build/nodo_lighting_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_lighting_station/lib/python3.12/site-packages:/home/diego/ros2_ws/install/station_interface/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_lighting_station build --build-base /home/diego/ros2_ws/build/nodo_lighting_station/build install --record /home/diego/ros2_ws/build/nodo_lighting_station/install.log --single-version-externally-managed install_data

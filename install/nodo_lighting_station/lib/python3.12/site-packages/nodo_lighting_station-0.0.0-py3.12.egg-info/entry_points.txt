@@ -1,0 +1,2 @@
+[console_scripts]
+start_light_station = nodo_lighting_station.SunController:main
