@@ -1,0 +1,25 @@
+[2.692s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_watering_station': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_watering_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_watering_station build --build-base /home/diego/ros2_ws/build/nodo_watering_station/build install --record /home/diego/ros2_ws/build/nodo_watering_station/install.log --single-version-externally-managed install_data
+[3.351s] running egg_info
+[3.400s] writing ../../../build/nodo_watering_station/nodo_watering_station.egg-info/PKG-INFO
+[3.400s] writing dependency_links to ../../../build/nodo_watering_station/nodo_watering_station.egg-info/dependency_links.txt
+[3.401s] writing entry points to ../../../build/nodo_watering_station/nodo_watering_station.egg-info/entry_points.txt
+[3.401s] writing requirements to ../../../build/nodo_watering_station/nodo_watering_station.egg-info/requires.txt
+[3.402s] writing top-level names to ../../../build/nodo_watering_station/nodo_watering_station.egg-info/top_level.txt
+[3.499s] reading manifest file '../../../build/nodo_watering_station/nodo_watering_station.egg-info/SOURCES.txt'
+[3.499s] adding license file 'LICENSE'
+[3.500s] writing manifest file '../../../build/nodo_watering_station/nodo_watering_station.egg-info/SOURCES.txt'
+[3.501s] running build
+[3.501s] running build_py
+[3.501s] copying nodo_watering_station/Control_Riego.py -> /home/diego/ros2_ws/build/nodo_watering_station/build/lib/nodo_watering_station
+[3.502s] running install
+[3.518s] running install_lib
+[3.567s] copying /home/diego/ros2_ws/build/nodo_watering_station/build/lib/nodo_watering_station/Control_Riego.py -> /home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages/nodo_watering_station
+[3.569s] byte-compiling /home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages/nodo_watering_station/Control_Riego.py to Control_Riego.cpython-312.pyc
+[3.571s] running install_data
+[3.572s] running install_egg_info
+[3.624s] removing '/home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages/nodo_watering_station-0.0.0-py3.12.egg-info' (and everything under it)
+[3.625s] Copying ../../../build/nodo_watering_station/nodo_watering_station.egg-info to /home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages/nodo_watering_station-0.0.0-py3.12.egg-info
+[3.627s] running install_scripts
+[3.984s] Installing start_watering_station script to /home/diego/ros2_ws/install/nodo_watering_station/lib/nodo_watering_station
+[3.985s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_watering_station/install.log'
+[4.084s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_watering_station' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_watering_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_watering_station/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_watering_station build --build-base /home/diego/ros2_ws/build/nodo_watering_station/build install --record /home/diego/ros2_ws/build/nodo_watering_station/install.log --single-version-externally-managed install_data

@@ -25,7 +25,7 @@ from station_interface.srv import Reload
 
 # Constantes para indicar en qué estados puede estar
 # el robot: wandering (vagar), go2goal (ir a objetivo), holdon (esperar), refill (repostando agua/luz)
-Estado = Enum('Estado', 'wandering go2Sun go2Water holdon rechargin rechargeWater rechargeLight')
+Estado = Enum('Estado', 'wandering go2Sun go2Water holdon rechargin rechargeWater rechargeLight requestWater')
 
 # Class that implements the driver that controls Xolobot. 
 # It receives environment stimuli and produces the values for the actuators (robot velocities)
@@ -165,6 +165,8 @@ class XolobotDriver(Node):
                 self.recharging()
             elif self.estado == Estado.holdon:
                 self.holdon()
+            elif self.estado == Estado.requestWater:
+                self.requestWater()
 
             ## Duerme lo necesario para que esta iteración la frecuencia dada arriba (Hz)
             rate.sleep()
@@ -230,16 +232,17 @@ class XolobotDriver(Node):
         print("Voy a recargar AGUA 💦💦⛽️⛽️...")
         self.pubState.publish(String(data="Recargando agua"))
         
-        # Forma la petición
+        # Inicializa la petición
         request = Reload.Request()
         
         # Tiempo de carga
         request.load = 200.0
         
+        # Llama a la función en la zona de riego
         self.clientWater.call(request)
 
 
-    def gotoGoal(self, goalPosition):
+    def gotoGoal(self, goalPosition):        
         # Calcular distancia entre zona de riego y el robot
         distToGo = self.dist(self.xoloPose.position, goalPosition)
         #print("La distancia a la meta es %f" % distToGo)
@@ -312,29 +315,15 @@ class XolobotDriver(Node):
     # del tópico /ligth_station/odom
     def updatePosSol(self, odomSol):
         self.sunPos = odomSol.pose.pose.position
+    
 
     # Método que se invoca automáticamente cada que llega un mensaje
     # del tópico /riego
     def checkWatering(self, msgRiego):
         print("Me llegó el mensaje '%s' para que vaya a la estación de Riego..." % msgRiego.data)
-        if self.estado == Estado.wandering or self.estado == Estado.holdon:
-            print("Voy a solicitar riego 🚿")
-            
-            request = Reload.Request()
-            
-            request.id = self.id
-            
-            response = self.clientWaterPermission.call_async(request)
-            print(response)            
-            print(response.result())
-            
-            if response.libre:
-                self.estado = Estado.go2Water
-                self.pubState.publish(String(data="Buscando agua"))
-                print("Voy a buscar agua")
-            else:
-                self.estado = Estado.holdon
-                print("Debo esperar mi turno")
+        if self.estado == Estado.wandering:           
+            self.estado = Estado.requestWater
+            self.pubState.publish(String(data="Buscando agua"))
         else:
             print("Ahora no puedo ir la estación de Riego, estoy en otra cosa ⛔️")
         
@@ -355,6 +344,30 @@ class XolobotDriver(Node):
         print("Me llegó el mensaje '%s' para avanzar 🏎💨" % msgAvanzar.data)
         self.estado = Estado.wandering
         self.pubState.publish(String(data="Persiguiendo mariposas 🦋🦋"))
+        
+    # Método para solicitar agua al Control de riego
+    def requestWater(self):
+        print("Voy a solicitar agua 💦")
+        
+        # Inicializa la petición
+        request = Reload.Request()
+        
+        # Adjunta el ID del robot
+        request.id = self.id
+            
+        # Llama a la función
+        response = self.clientWaterPermission.call(request)
+        
+        if response.libre:
+            print("¡Podemos ir por agua, es mi turno! 💦💦💦")
+            
+            # Cambia el estado para direccionarse a la zona de riego
+            self.estado = Estado.go2Water
+        else:
+            print("Debo esperar mi turno ⛔️")
+            
+            # En lo que espera, se mueve de forma aleatoria
+            self.wandering()
 
     def goStraight(self):
         vel_msg = Twist()

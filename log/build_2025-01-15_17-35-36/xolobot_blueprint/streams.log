@@ -1,0 +1,36 @@
+[1.505s] Invoking command in '/home/diego/ros2_ws/build/xolobot_blueprint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/xolobot_blueprint -- -j8 -l8
+[1.671s] Invoked command in '/home/diego/ros2_ws/build/xolobot_blueprint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/xolobot_blueprint -- -j8 -l8
+[1.674s] Invoking command in '/home/diego/ros2_ws/build/xolobot_blueprint': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/xolobot_blueprint
+[1.680s] -- Install configuration: ""
+[1.680s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models
+[1.680s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive
+[1.680s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes
+[1.681s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_wheel_mejorado.obj
+[1.681s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_sensor.dae
+[1.681s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_base_altura_ok.dae
+[1.681s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_wheel_mejorado_backup.dae
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_base_backup.dae
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_wheel_mejorado.dae
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_wheel.dae
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_wheel_mejorado.mtl
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/meshes/arlo_base.dae
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/model.config
+[1.682s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/models/arlodrive/xolobot.sdf
+[1.683s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/xolobot_blueprint.dsv
+[1.683s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/xolobot_blueprint.sh
+[1.683s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/ament_index/resource_index/package_run_dependencies/xolobot_blueprint
+[1.683s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/ament_index/resource_index/parent_prefix_path/xolobot_blueprint
+[1.683s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/ament_prefix_path.sh
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/ament_prefix_path.dsv
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/path.sh
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/environment/path.dsv
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/local_setup.bash
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/local_setup.sh
+[1.684s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/local_setup.zsh
+[1.685s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/local_setup.dsv
+[1.685s] -- Installing: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/package.dsv
+[1.685s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/ament_index/resource_index/packages/xolobot_blueprint
+[1.685s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/cmake/xolobot_blueprintConfig.cmake
+[1.685s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/cmake/xolobot_blueprintConfig-version.cmake
+[1.685s] -- Up-to-date: /home/diego/ros2_ws/install/xolobot_blueprint/share/xolobot_blueprint/package.xml
+[1.822s] Invoked command in '/home/diego/ros2_ws/build/xolobot_blueprint' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/xolobot_blueprint

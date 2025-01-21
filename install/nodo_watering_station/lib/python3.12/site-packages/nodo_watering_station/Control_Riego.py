@@ -87,31 +87,32 @@ class XolobotController(Node):
         self.ocupado = False
         return response
 
+    # Método que recibe la petición de agua y valida la fila
+    # Aquí se realiza toda la validación de la fila, así como también se construye dependiendo de las peticiones
     def watering_request(self, request, response):
-        # Aquí se realiza toda la validación de la fila, así como también se construye dependiendo de las peticiones
-        print("pedido")
+        
         # ID del robot que solicitó la petición
         id = request.id
-        
-        response.libre = True
-        
-        print(response)
-        
-        return response
-        
-        #if not self.fila and not self.ocupado:
-        #    response.libre = True
-        #    self.ocupado = True
-        #    return response
-        #elif self.fila and self.fila[0] == id and not self.ocupado:
-        #    response.libre = True
-        #    self.fila.pop(0)
-        #    self.ocupado = True
-        #    return response
-        #else:
-        #    self.fila.append(id)
-        #    response.libre = False
-        #    return response
+
+        # Valida que la zona de riego no esté ocupada
+        if not self.ocupado:
+
+            # Valida el turno y si existe una fila de espera
+            if not self.fila:
+                response.libre = True
+                self.ocupado = True
+                return response
+            elif self.fila[0] == id:
+                response.libre = True
+                self.ocupado = True
+                self.fila.pop(0)
+                return response
+        else:
+            
+            # Almacena los id para ponerlos en fila
+            if not id in self.fila: self.fila.append(id)
+            response.libre = False
+            return response
  
     ### FUNCIÓN IMPORTANTE ###
     # Esta función se invoca automáticamente cada que llega un mensaje 

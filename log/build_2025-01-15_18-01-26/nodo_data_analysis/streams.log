@@ -1,0 +1,22 @@
+[2.406s] Invoking command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_analysis': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_data_analysis/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_data_analysis/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_data_analysis build --build-base /home/diego/ros2_ws/build/nodo_data_analysis/build install --record /home/diego/ros2_ws/build/nodo_data_analysis/install.log --single-version-externally-managed install_data
+[3.025s] running egg_info
+[3.069s] writing ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/PKG-INFO
+[3.069s] writing dependency_links to ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/dependency_links.txt
+[3.070s] writing entry points to ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/entry_points.txt
+[3.070s] writing requirements to ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/requires.txt
+[3.070s] writing top-level names to ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/top_level.txt
+[3.162s] reading manifest file '../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/SOURCES.txt'
+[3.163s] adding license file 'LICENSE'
+[3.164s] writing manifest file '../../../build/nodo_data_analysis/nodo_data_analysis.egg-info/SOURCES.txt'
+[3.164s] running build
+[3.164s] running build_py
+[3.165s] running install
+[3.179s] running install_lib
+[3.226s] running install_data
+[3.227s] running install_egg_info
+[3.274s] removing '/home/diego/ros2_ws/install/nodo_data_analysis/lib/python3.12/site-packages/nodo_data_analysis-0.0.0-py3.12.egg-info' (and everything under it)
+[3.275s] Copying ../../../build/nodo_data_analysis/nodo_data_analysis.egg-info to /home/diego/ros2_ws/install/nodo_data_analysis/lib/python3.12/site-packages/nodo_data_analysis-0.0.0-py3.12.egg-info
+[3.277s] running install_scripts
+[3.577s] Installing start_data_analysis script to /home/diego/ros2_ws/install/nodo_data_analysis/lib/nodo_data_analysis
+[3.578s] writing list of installed files to '/home/diego/ros2_ws/build/nodo_data_analysis/install.log'
+[3.690s] Invoked command in '/home/diego/ros2_ws/src/tengo_mas_sed/nodo_data_analysis' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/diego/ros2_ws/build/nodo_data_analysis/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/diego/ros2_ws/install/nodo_data_analysis/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../build/nodo_data_analysis build --build-base /home/diego/ros2_ws/build/nodo_data_analysis/build install --record /home/diego/ros2_ws/build/nodo_data_analysis/install.log --single-version-externally-managed install_data

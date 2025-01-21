@@ -1,0 +1,147 @@
+[0.075s] Invoking command in '/home/diego/ros2_ws/build/kalanchoe_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/kalanchoe_interface -- -j8 -l8
+[1.543s] [  2%] Built target kalanchoe_interface__rosidl_generator_type_description
+[1.544s] [  2%] Built target ament_cmake_python_copy_kalanchoe_interface
+[1.544s] [  5%] Built target kalanchoe_interface__cpp
+[1.544s] [ 20%] Built target kalanchoe_interface__rosidl_generator_c
+[1.544s] [ 29%] Built target kalanchoe_interface__rosidl_typesupport_introspection_c
+[1.544s] [ 38%] Built target kalanchoe_interface__rosidl_typesupport_c
+[1.544s] [ 47%] Built target kalanchoe_interface__rosidl_typesupport_fastrtps_cpp
+[1.545s] [ 55%] Built target kalanchoe_interface__rosidl_typesupport_fastrtps_c
+[1.545s] [ 67%] Built target kalanchoe_interface__rosidl_typesupport_introspection_cpp
+[1.545s] [ 73%] Built target kalanchoe_interface__rosidl_typesupport_cpp
+[1.545s] [ 73%] Built target kalanchoe_interface
+[1.546s] [ 76%] Built target kalanchoe_interface__py
+[1.546s] [ 82%] Built target kalanchoe_interface__rosidl_generator_py
+[1.546s] [ 88%] Built target kalanchoe_interface_s__rosidl_typesupport_introspection_c
+[1.546s] [100%] Built target kalanchoe_interface_s__rosidl_typesupport_fastrtps_c
+[1.546s] [100%] Built target kalanchoe_interface_s__rosidl_typesupport_c
+[1.546s] running egg_info
+[1.546s] writing kalanchoe_interface.egg-info/PKG-INFO
+[1.547s] writing dependency_links to kalanchoe_interface.egg-info/dependency_links.txt
+[1.547s] writing top-level names to kalanchoe_interface.egg-info/top_level.txt
+[1.547s] reading manifest file 'kalanchoe_interface.egg-info/SOURCES.txt'
+[1.547s] writing manifest file 'kalanchoe_interface.egg-info/SOURCES.txt'
+[1.547s] [100%] Built target ament_cmake_python_build_kalanchoe_interface_egg
+[1.567s] Invoked command in '/home/diego/ros2_ws/build/kalanchoe_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --build /home/diego/ros2_ws/build/kalanchoe_interface -- -j8 -l8
+[1.570s] Invoking command in '/home/diego/ros2_ws/build/kalanchoe_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/kalanchoe_interface
+[1.610s] -- Install configuration: ""
+[1.611s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/ament_index/resource_index/rosidl_interfaces/kalanchoe_interface
+[1.612s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/msg/Measure.json
+[1.612s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.612s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.612s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.613s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__type_support.c
+[1.613s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__struct.h
+[1.613s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__functions.c
+[1.613s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__type_support.h
+[1.613s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__functions.h
+[1.614s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__description.c
+[1.614s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/measure.h
+[1.614s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/rosidl_generator_c__visibility_control.h
+[1.614s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/library_path.sh
+[1.615s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/library_path.dsv
+[1.615s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_generator_c.so
+[1.615s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.615s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.616s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.616s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__rosidl_typesupport_fastrtps_c.h
+[1.616s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.617s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_fastrtps_c.so
+[1.617s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.617s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.618s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/measure.hpp
+[1.618s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.618s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__traits.hpp
+[1.618s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__builder.hpp
+[1.618s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__struct.hpp
+[1.619s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__type_support.hpp
+[1.626s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+[1.626s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.626s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.627s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.627s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.627s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__rosidl_typesupport_fastrtps_cpp.hpp
+[1.627s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/dds_fastrtps
+[1.628s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_fastrtps_cpp.so
+[1.628s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.628s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.628s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.629s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__type_support.c
+[1.629s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__rosidl_typesupport_introspection_c.h
+[1.629s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.629s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_introspection_c.so
+[1.629s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_c.so
+[1.630s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface
+[1.630s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg
+[1.630s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail
+[1.630s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__type_support.cpp
+[1.631s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/include/kalanchoe_interface/kalanchoe_interface/msg/detail/measure__rosidl_typesupport_introspection_cpp.hpp
+[1.631s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_introspection_cpp.so
+[1.631s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_typesupport_cpp.so
+[1.631s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/pythonpath.sh
+[1.632s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/pythonpath.dsv
+[1.632s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface-0.0.0-py3.12.egg-info
+[1.632s] -- Installing: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface-0.0.0-py3.12.egg-info/SOURCES.txt
+[1.632s] -- Installing: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface-0.0.0-py3.12.egg-info/dependency_links.txt
+[1.633s] -- Installing: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface-0.0.0-py3.12.egg-info/PKG-INFO
+[1.633s] -- Installing: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface-0.0.0-py3.12.egg-info/top_level.txt
+[1.633s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface
+[1.633s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/__init__.py
+[1.634s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.635s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_introspection_c.so
+[1.636s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/_kalanchoe_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.636s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/msg
+[1.636s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/msg/__init__.py
+[1.636s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/msg/_measure.py
+[1.636s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/msg/_measure_s.c
+[1.637s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/_kalanchoe_interface_s.ep.rosidl_typesupport_c.c
+[1.637s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_c.so
+[1.637s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/_kalanchoe_interface_s.ep.rosidl_typesupport_introspection_c.c
+[1.691s] Listing '/home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface'...
+[1.691s] Listing '/home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/msg'...
+[1.727s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_fastrtps_c.so
+[1.727s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_introspection_c.so
+[1.728s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/python3.12/site-packages/kalanchoe_interface/kalanchoe_interface_s__rosidl_typesupport_c.so
+[1.729s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/lib/libkalanchoe_interface__rosidl_generator_py.so
+[1.730s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/msg/Measure.idl
+[1.730s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/msg/Measure.msg
+[1.731s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/ament_index/resource_index/package_run_dependencies/kalanchoe_interface
+[1.732s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/ament_index/resource_index/parent_prefix_path/kalanchoe_interface
+[1.733s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/ament_prefix_path.sh
+[1.733s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/ament_prefix_path.dsv
+[1.734s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/path.sh
+[1.734s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/environment/path.dsv
+[1.735s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/local_setup.bash
+[1.736s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/local_setup.sh
+[1.737s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/local_setup.zsh
+[1.737s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/local_setup.dsv
+[1.737s] -- Installing: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/package.dsv
+[1.743s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/ament_index/resource_index/packages/kalanchoe_interface
+[1.746s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_generator_cExport.cmake
+[1.746s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_generator_cExport-noconfig.cmake
+[1.747s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_typesupport_fastrtps_cExport.cmake
+[1.747s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.749s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_generator_cppExport.cmake
+[1.750s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.750s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.751s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_introspection_cExport.cmake
+[1.751s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.752s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_cExport.cmake
+[1.752s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_cExport-noconfig.cmake
+[1.752s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_introspection_cppExport.cmake
+[1.752s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.753s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_cppExport.cmake
+[1.753s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interface__rosidl_typesupport_cppExport-noconfig.cmake
+[1.756s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_generator_pyExport.cmake
+[1.756s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/export_kalanchoe_interface__rosidl_generator_pyExport-noconfig.cmake
+[1.756s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/rosidl_cmake-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/ament_cmake_export_libraries-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/ament_cmake_export_targets-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.757s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.758s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interfaceConfig.cmake
+[1.758s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/cmake/kalanchoe_interfaceConfig-version.cmake
+[1.758s] -- Up-to-date: /home/diego/ros2_ws/install/kalanchoe_interface/share/kalanchoe_interface/package.xml
+[1.785s] Invoked command in '/home/diego/ros2_ws/build/kalanchoe_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/diego/ros2_ws/install/nodo_xolobot_driver:/home/diego/ros2_ws/install/nodo_lighting_station:/home/diego/ros2_ws/install/nodo_watering_station:/home/diego/ros2_ws/install/nodo_kalanchoe:/home/diego/ros2_ws/install/nodo_data_monitoring:/home/diego/ros2_ws/install/nodo_data_analysis:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /home/diego/.local/bin/cmake --install /home/diego/ros2_ws/build/kalanchoe_interface
